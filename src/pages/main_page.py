@@ -1,7 +1,6 @@
 from selenium.webdriver.common.by import By
-from src.baseapp import BasePage
+from src.base_page import BasePage
 import allure
-from visual_regression_tracker import VisualRegressionTracker, Config, TestRun
 import time
 
 
@@ -52,38 +51,3 @@ class MainPageHelper(BasePage):
     def check_invalid_credentials(self):
         check_el = self.find_element(MainPageLoginLokators.LOCATOR_CHECK_INVALID_CREDENTIALS)
         assert check_el.is_displayed()
-
-
-    def screenshot_check(self, vrt_name, vrt_viewport, vrt_os, vrt_device):
-        config = Config(
-            # apiUrl - URL where backend is running
-            apiUrl='http://104.248.78.141:4200',
-
-            # project - Project name or ID
-            project='at-test',
-
-            # apiKey - User apiKey
-            apiKey='YYJSBHYHD0MB77PFBNBFJ6X79FRZ',
-
-            # ciBuildId - Current git commit SHA
-            ciBuildId='prod',
-
-            # branch - Current git branch
-            branchName='at-test',
-
-            # enableSoftAssert - Log errors instead of exceptions
-            enableSoftAssert=False,
-        )
-
-        vrt = VisualRegressionTracker(config)
-        scr = self.screenshot_for_vrt()
-        with vrt:
-            vrt.track(TestRun(
-                name=vrt_name,
-                imageBase64=scr,
-                diffTollerancePercent=0,
-                os=vrt_os,
-                browser='Chrome',
-                viewport=vrt_viewport,
-                device=vrt_device,
-            ))

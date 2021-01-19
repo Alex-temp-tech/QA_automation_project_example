@@ -1,9 +1,6 @@
 import allure
 import pytest
-from src import accounts
 from src.pages.main_page import MainPageHelper
-from src.pages.login_page import LoginPageHelper
-
 
 @allure.testcase("https://app.qase.io/case/AT-6")
 @allure.feature("main_page")

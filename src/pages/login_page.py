@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from src.baseapp import BasePage
+from src.base_page import BasePage
 import allure
 from visual_regression_tracker import VisualRegressionTracker, Config, TestRun
 
