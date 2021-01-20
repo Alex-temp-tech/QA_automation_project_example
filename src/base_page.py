@@ -11,15 +11,15 @@ import allure
 class BasePage:
     def __init__(self, browser):
         self.driver = browser
-        self.base_url = conftest.get_confg()['DEFAULT']['base_url']
+        self.base_url = "https://antitreningi.ru"
         self.base_url_token = "https://antitreningi.ru/account/auth?&token=" + save_token.token()
 
     @allure.step
-    def find_element(self, locator, time=conftest.get_confg()['DEFAULT']['tout']):
+    def find_element(self, locator, time=int(conftest.get_confg()['DEFAULT']['tout'])):
         return WebDriverWait(self.driver, time).until(EC.presence_of_element_located(locator),
                                                       message=f"Can't find element by locator {locator}")
     @allure.step
-    def find_elements(self, locator, time=conftest.get_confg()['DEFAULT']['tout']):
+    def find_elements(self, locator, time=int(conftest.get_confg()['DEFAULT']['tout'])):
         return WebDriverWait(self.driver, time).until(EC.presence_of_all_elements_located(locator),
                                                       message=f"Can't find elements by locator {locator}")
     @allure.step
