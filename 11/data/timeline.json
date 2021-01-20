@@ -1,0 +1,129 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az32-67",
+    "children" : [ {
+      "name" : "4755-MainThread",
+      "children" : [ {
+        "name" : "test_AT_7_vrt_main_page_click_on_the_yellow_button",
+        "uid" : "390015fd2177ab1",
+        "parentUid" : "0e99407c662ff00e2add9472f59d0651",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611121095489,
+          "stop" : 1611121147291,
+          "duration" : 51802
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_2_login_from_main_page_with_invalid_credentials",
+        "uid" : "60d901d541464b2",
+        "parentUid" : "0e99407c662ff00e2add9472f59d0651",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611121059255,
+          "stop" : 1611121091386,
+          "duration" : 32131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0e99407c662ff00e2add9472f59d0651"
+    }, {
+      "name" : "4758-MainThread",
+      "children" : [ {
+        "name" : "test_AT_1_login_from_main_page_with_valid_credentials",
+        "uid" : "9433d8e3a5ec8435",
+        "parentUid" : "7e9934445959db2a9d4104b735e0cae9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611121058201,
+          "stop" : 1611121090432,
+          "duration" : 32231
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_5_login_from_token",
+        "uid" : "c5e09092f7a27ccf",
+        "parentUid" : "7e9934445959db2a9d4104b735e0cae9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611121094878,
+          "stop" : 1611121136297,
+          "duration" : 41419
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7e9934445959db2a9d4104b735e0cae9"
+    }, {
+      "name" : "4766-MainThread",
+      "children" : [ {
+        "name" : "test_AT_6_vrt_main_page",
+        "uid" : "b86adb4d9762c111",
+        "parentUid" : "4966bafd3728a08e185b7a88b27a3aa9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611121073591,
+          "stop" : 1611121084625,
+          "duration" : 11034
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_4_login_from_login_page_with_invalid_credentials",
+        "uid" : "544a23f31b5eee9c",
+        "parentUid" : "4966bafd3728a08e185b7a88b27a3aa9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611121058596,
+          "stop" : 1611121069848,
+          "duration" : 11252
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4966bafd3728a08e185b7a88b27a3aa9"
+    }, {
+      "name" : "4762-MainThread",
+      "children" : [ {
+        "name" : "test_AT_3_login_from_login_page_with_valid_credentials",
+        "uid" : "507a713bf93eb8a1",
+        "parentUid" : "bb7b8a5c34e80c423e12abd0f55a4950",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611121058527,
+          "stop" : 1611121083086,
+          "duration" : 24559
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "vrt_main_page_modal_window_top_right_button_with_valid_credentials_before_click",
+        "uid" : "d71182cb478c4beb",
+        "parentUid" : "bb7b8a5c34e80c423e12abd0f55a4950",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611121086276,
+          "stop" : 1611121117310,
+          "duration" : 31034
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bb7b8a5c34e80c423e12abd0f55a4950"
+    } ],
+    "uid" : "ec232cd9a0f5abebd68c5daf67dbe862"
+  } ],
+  "name" : "timeline"
+}

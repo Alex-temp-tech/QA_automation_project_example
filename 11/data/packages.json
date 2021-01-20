@@ -1,0 +1,129 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "tests.Regression testing",
+    "children" : [ {
+      "name" : "Smoke tests.Login.test_TestSmokeTesting",
+      "children" : [ {
+        "name" : "test_AT_1_login_from_main_page_with_valid_credentials",
+        "uid" : "9433d8e3a5ec8435",
+        "parentUid" : "8d93cfa44b946781546be451777d2213",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611121058201,
+          "stop" : 1611121090432,
+          "duration" : 32231
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_3_login_from_login_page_with_valid_credentials",
+        "uid" : "507a713bf93eb8a1",
+        "parentUid" : "8d93cfa44b946781546be451777d2213",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611121058527,
+          "stop" : 1611121083086,
+          "duration" : 24559
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_4_login_from_login_page_with_invalid_credentials",
+        "uid" : "544a23f31b5eee9c",
+        "parentUid" : "8d93cfa44b946781546be451777d2213",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611121058596,
+          "stop" : 1611121069848,
+          "duration" : 11252
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_2_login_from_main_page_with_invalid_credentials",
+        "uid" : "60d901d541464b2",
+        "parentUid" : "8d93cfa44b946781546be451777d2213",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611121059255,
+          "stop" : 1611121091386,
+          "duration" : 32131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_5_login_from_token",
+        "uid" : "c5e09092f7a27ccf",
+        "parentUid" : "8d93cfa44b946781546be451777d2213",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611121094878,
+          "stop" : 1611121136297,
+          "duration" : 41419
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "Smoke tests.Login.test_TestSmokeTesting"
+    }, {
+      "name" : "VRT",
+      "children" : [ {
+        "name" : "Main_page.test_Regression_testing_VRT_Main_page",
+        "children" : [ {
+          "name" : "test_AT_6_vrt_main_page",
+          "uid" : "b86adb4d9762c111",
+          "parentUid" : "2dd65435fd6b16a42985a1ab36a7f0d2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1611121073591,
+            "stop" : 1611121084625,
+            "duration" : 11034
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "Main_page.test_Regression_testing_VRT_Main_page"
+      }, {
+        "name" : "Login.test_Regression_testing_VRT_Login",
+        "children" : [ {
+          "name" : "vrt_main_page_modal_window_top_right_button_with_valid_credentials_before_click",
+          "uid" : "d71182cb478c4beb",
+          "parentUid" : "934211a25c03b205b3b43ea7e0c6c2f8",
+          "status" : "broken",
+          "time" : {
+            "start" : 1611121086276,
+            "stop" : 1611121117310,
+            "duration" : 31034
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_AT_7_vrt_main_page_click_on_the_yellow_button",
+          "uid" : "390015fd2177ab1",
+          "parentUid" : "934211a25c03b205b3b43ea7e0c6c2f8",
+          "status" : "broken",
+          "time" : {
+            "start" : 1611121095489,
+            "stop" : 1611121147291,
+            "duration" : 51802
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "Login.test_Regression_testing_VRT_Login"
+      } ],
+      "uid" : "801593ba3098f6dbe9133d148c5224bc"
+    } ],
+    "uid" : "tests.Regression testing"
+  } ],
+  "name" : "packages"
+}

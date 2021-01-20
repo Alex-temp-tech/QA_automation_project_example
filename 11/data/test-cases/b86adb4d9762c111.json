@@ -1,0 +1,159 @@
+{
+  "uid" : "b86adb4d9762c111",
+  "name" : "test_AT_6_vrt_main_page",
+  "fullName" : "tests.Regression testing.VRT.Main_page.test_Regression_testing_VRT_Main_page#test_AT_6_vrt_main_page",
+  "historyId" : "5ce805ea10db0a573c0a40bfd8a75fd7",
+  "time" : {
+    "start" : 1611121073591,
+    "stop" : 1611121084625,
+    "duration" : 11034
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1611121069931,
+      "stop" : 1611121073590,
+      "duration" : 3659
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "go_to_site",
+      "time" : {
+        "start" : 1611121074133,
+        "stop" : 1611121079409,
+        "duration" : 5276
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'/'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "screenshot_for_vrt",
+      "time" : {
+        "start" : 1611121079409,
+        "stop" : 1611121081940,
+        "duration" : 2531
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1611121084626,
+      "stop" : 1611121084683,
+      "duration" : 57
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "test_UI"
+  }, {
+    "name" : "feature",
+    "value" : "main_page"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.Regression testing.VRT.Main_page"
+  }, {
+    "name" : "suite",
+    "value" : "test_Regression_testing_VRT_Main_page"
+  }, {
+    "name" : "host",
+    "value" : "fv-az32-67"
+  }, {
+    "name" : "thread",
+    "value" : "4766-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.Regression testing.VRT.Main_page.test_Regression_testing_VRT_Main_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://app.qase.io/case/AT-6",
+    "url" : "https://app.qase.io/case/AT-6",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "51814b63ff056c36",
+        "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/10//#testresult/51814b63ff056c36",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611116781153,
+          "stop" : 1611116793429,
+          "duration" : 12276
+        }
+      } ]
+    },
+    "tags" : [ "test_UI", "smoke" ]
+  },
+  "source" : "b86adb4d9762c111.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,65 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', \"//span[contains(text(),'Войти1')]\")",
+      "children" : [ {
+        "name" : "test_AT_1_login_from_main_page_with_valid_credentials",
+        "uid" : "9433d8e3a5ec8435",
+        "parentUid" : "260d6fae6afac387d02cc4e71a3f26bb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611121058201,
+          "stop" : 1611121090432,
+          "duration" : 32231
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_2_login_from_main_page_with_invalid_credentials",
+        "uid" : "60d901d541464b2",
+        "parentUid" : "260d6fae6afac387d02cc4e71a3f26bb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611121059255,
+          "stop" : 1611121091386,
+          "duration" : 32131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "vrt_main_page_modal_window_top_right_button_with_valid_credentials_before_click",
+        "uid" : "d71182cb478c4beb",
+        "parentUid" : "260d6fae6afac387d02cc4e71a3f26bb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611121086276,
+          "stop" : 1611121117310,
+          "duration" : 31034
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_7_vrt_main_page_click_on_the_yellow_button",
+        "uid" : "390015fd2177ab1",
+        "parentUid" : "260d6fae6afac387d02cc4e71a3f26bb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611121095489,
+          "stop" : 1611121147291,
+          "duration" : 51802
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "260d6fae6afac387d02cc4e71a3f26bb"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
