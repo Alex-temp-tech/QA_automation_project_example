@@ -14,7 +14,6 @@ class MainPageLoginLokators:
 
 
 class MainPageHelper(BasePage):
-
     @allure.step
     def click_on_the_yellow_button(self):
         self.find_element(MainPageLoginLokators.LOCATOR_BUTTON_LOGIN).click()
