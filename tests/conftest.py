@@ -57,6 +57,8 @@ def browser(request):
     #allure.attach(browser.get_screenshot_as_png(), name="Screenshot", attachment_type=AttachmentType.PNG)
     browser.quit()
 
+
+#If our test fall ad screenshon to allure
 @pytest.hookimpl(tryfirst=True, hookwrapper=True)
 def pytest_runtest_makereport(item, call):
     outcome = yield
