@@ -1,0 +1,133 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests.Regression testing.Smoke tests.Login",
+    "children" : [ {
+      "name" : "test_TestSmokeTesting",
+      "children" : [ {
+        "name" : "test_AT_1_login_from_main_page_with_valid_credentials",
+        "uid" : "e679660cc30f902e",
+        "parentUid" : "fd6784a57e230ad11754ff49284406a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611122688016,
+          "stop" : 1611122715165,
+          "duration" : 27149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_4_login_from_login_page_with_invalid_credentials",
+        "uid" : "39f5177a8a181ea9",
+        "parentUid" : "fd6784a57e230ad11754ff49284406a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611122688305,
+          "stop" : 1611122698801,
+          "duration" : 10496
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_3_login_from_login_page_with_valid_credentials",
+        "uid" : "5f4cd056d8325e30",
+        "parentUid" : "fd6784a57e230ad11754ff49284406a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611122689665,
+          "stop" : 1611122715031,
+          "duration" : 25366
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_2_login_from_main_page_with_invalid_credentials",
+        "uid" : "486a37ed264a17b2",
+        "parentUid" : "fd6784a57e230ad11754ff49284406a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611122689732,
+          "stop" : 1611122699631,
+          "duration" : 9899
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_5_login_from_token",
+        "uid" : "a23ea13d7137217d",
+        "parentUid" : "fd6784a57e230ad11754ff49284406a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611122718137,
+          "stop" : 1611122727585,
+          "duration" : 9448
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fd6784a57e230ad11754ff49284406a6"
+    } ],
+    "uid" : "c8450eaae268bc651bc704d75e6cf05e"
+  }, {
+    "name" : "tests.Regression testing.VRT.Main_page",
+    "children" : [ {
+      "name" : "test_Regression_testing_VRT_Main_page",
+      "children" : [ {
+        "name" : "test_AT_6_vrt_main_page",
+        "uid" : "1a5af4fc01d48e75",
+        "parentUid" : "eb41a14702940e52de45714f9f22da59",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611122702725,
+          "stop" : 1611122713562,
+          "duration" : 10837
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eb41a14702940e52de45714f9f22da59"
+    } ],
+    "uid" : "c1deaa98016bb4eaffcdd872042b0467"
+  }, {
+    "name" : "tests.Regression testing.VRT.Login",
+    "children" : [ {
+      "name" : "test_Regression_testing_VRT_Login",
+      "children" : [ {
+        "name" : "test_AT_7_vrt_main_page_click_on_the_yellow_button",
+        "uid" : "407ed91199ac3804",
+        "parentUid" : "4b4ed51a32b556eeac5027174716f641",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611122702950,
+          "stop" : 1611122718632,
+          "duration" : 15682
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "vrt_main_page_modal_window_top_right_button_with_valid_credentials_before_click",
+        "uid" : "5e8cbc8ff850a2a",
+        "parentUid" : "4b4ed51a32b556eeac5027174716f641",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611122718319,
+          "stop" : 1611122726738,
+          "duration" : 8419
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4b4ed51a32b556eeac5027174716f641"
+    } ],
+    "uid" : "d0e0175cf2dcb27c7c4fa7f362355354"
+  } ],
+  "name" : "suites"
+}
