@@ -1,8 +1,6 @@
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from visual_regression_tracker import VisualRegressionTracker, Config, TestRun
-
-import time
 from src import save_token
 from tests import conftest
 import allure
@@ -11,7 +9,7 @@ import allure
 class BasePage:
     def __init__(self, browser):
         self.driver = browser
-        self.base_url = "https://antitreningi.ru"
+        self.base_url = conftest.get_confg()['DEFAULT']['base_url']
         self.base_url_token = "https://antitreningi.ru/account/auth?&token=" + save_token.token()
 
     @allure.step
