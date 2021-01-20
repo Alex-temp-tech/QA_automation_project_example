@@ -7,15 +7,19 @@ from src import browsers
 import allure
 from allure_commons.types import AttachmentType
 
-def read_ini():
-    config_file_name = os.environ.get("config-file", 'project-config.ini')
-    root_path = os.path.join(sys.path[1], config_file_name)
-    parser = configparser.ConfigParser()
-    parser.read(root_path)
-    return parser
+T_OUT = 25
+ip_selenoid_serv = "http://128.199.103.130:4444/wd/hub"
+ip_selenoid_mac = "http://localhost:4444/wd/hub"
 
-def get_confg():
-    return read_ini()
+# def read_ini():
+#     config_file_name = os.environ.get("config-file", 'project-config.ini')
+#     root_path = os.path.join(sys.path[1], config_file_name)
+#     parser = configparser.ConfigParser()
+#     parser.read(root_path)
+#     return parser
+#
+# def get_confg():
+#     return read_ini()
 
 def pytest_addoption(parser):
     parser.addoption('--selenoid', action='store', default='mac',
@@ -38,17 +42,17 @@ def browser(request):
     selenoid = request.config.getoption("selenoid")
     if selenoid == "serv":
         browser = webdriver.Remote(
-            command_executor=get_confg()['DEFAULT']['ip_selenoid_serv'],
+            command_executor=ip_selenoid_serv,
             desired_capabilities=capabilities)
     elif selenoid == "mac":
         browser = webdriver.Remote(
-            command_executor=get_confg()['DEFAULT']['ip_selenoid_mac'],
+            command_executor=ip_selenoid_mac,
             desired_capabilities=capabilities)
     else:
         raise pytest.UsageError("--selenoid should be mac or serv")
 
     browser.maximize_window()
-    browser.implicitly_wait(get_confg()['DEFAULT']['tout'])
+    browser.implicitly_wait(T_OUT)
     yield browser
     allure.attach(browser.get_screenshot_as_png(), name="Screenshot", attachment_type=AttachmentType.PNG)
     browser.quit()
