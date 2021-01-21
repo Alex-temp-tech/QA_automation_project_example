@@ -1,0 +1,129 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az32-77",
+    "children" : [ {
+      "name" : "5021-MainThread",
+      "children" : [ {
+        "name" : "vrt_main_page_modal_window_top_right_button_with_valid_credentials_before_click",
+        "uid" : "acf465d3c7c6d7b",
+        "parentUid" : "8af92d35f2c528ecfae8a6b5df41a65e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611207695248,
+          "stop" : 1611207710160,
+          "duration" : 14912
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_3_login_from_login_page_with_valid_credentials",
+        "uid" : "b9475544be79b358",
+        "parentUid" : "8af92d35f2c528ecfae8a6b5df41a65e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611207662566,
+          "stop" : 1611207692285,
+          "duration" : 29719
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8af92d35f2c528ecfae8a6b5df41a65e"
+    }, {
+      "name" : "5017-MainThread",
+      "children" : [ {
+        "name" : "test_AT_2_login_from_main_page_with_invalid_credentials",
+        "uid" : "ab769403aa98dffb",
+        "parentUid" : "3912f46000434dfb4c34d555cb78841a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611207661127,
+          "stop" : 1611207673303,
+          "duration" : 12176
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_7_vrt_main_page_click_on_the_yellow_button",
+        "uid" : "8131c895d07bd377",
+        "parentUid" : "3912f46000434dfb4c34d555cb78841a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611207677403,
+          "stop" : 1611207698185,
+          "duration" : 20782
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3912f46000434dfb4c34d555cb78841a"
+    }, {
+      "name" : "5014-MainThread",
+      "children" : [ {
+        "name" : "test_AT_1_login_from_main_page_with_valid_credentials",
+        "uid" : "742a691b6a055da9",
+        "parentUid" : "84274a6c1144e90af0b29fb00010b4aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611207661229,
+          "stop" : 1611207690089,
+          "duration" : 28860
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_5_login_from_token",
+        "uid" : "c4d883923a1a8bdf",
+        "parentUid" : "84274a6c1144e90af0b29fb00010b4aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611207693631,
+          "stop" : 1611207705124,
+          "duration" : 11493
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "84274a6c1144e90af0b29fb00010b4aa"
+    }, {
+      "name" : "5025-MainThread",
+      "children" : [ {
+        "name" : "test_AT_6_vrt_main_page",
+        "uid" : "da1172da9aff50fd",
+        "parentUid" : "a408b7a5ccefc4409306f07b91ada687",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611207675182,
+          "stop" : 1611207691151,
+          "duration" : 15969
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_4_login_from_login_page_with_invalid_credentials",
+        "uid" : "7bddbf7ee021e5bf",
+        "parentUid" : "a408b7a5ccefc4409306f07b91ada687",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611207660677,
+          "stop" : 1611207671009,
+          "duration" : 10332
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a408b7a5ccefc4409306f07b91ada687"
+    } ],
+    "uid" : "74bbb04f2cc33cd7f4c62fd4ed05bb2c"
+  } ],
+  "name" : "timeline"
+}

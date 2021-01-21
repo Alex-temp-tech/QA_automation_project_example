@@ -1,0 +1,367 @@
+{
+  "uid" : "742a691b6a055da9",
+  "name" : "test_AT_1_login_from_main_page_with_valid_credentials",
+  "fullName" : "tests.Regression testing.Smoke tests.Login.test_TestSmokeTesting#test_AT_1_login_from_main_page_with_valid_credentials",
+  "historyId" : "d2dbc3d866c68ddd5b20d8daa3a723fa",
+  "time" : {
+    "start" : 1611207661229,
+    "stop" : 1611207690089,
+    "duration" : 28860
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1611207655852,
+      "stop" : 1611207661227,
+      "duration" : 5375
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "go_to_site",
+      "time" : {
+        "start" : 1611207661771,
+        "stop" : 1611207668087,
+        "duration" : 6316
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'/'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "full_login",
+      "time" : {
+        "start" : 1611207668087,
+        "stop" : 1611207671699,
+        "duration" : 3612
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "click_on_the_yellow_button",
+        "time" : {
+          "start" : 1611207668087,
+          "stop" : 1611207668573,
+          "duration" : 486
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "find_element",
+          "time" : {
+            "start" : 1611207668088,
+            "stop" : 1611207668219,
+            "duration" : 131
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', \"//span[contains(text(),'Войти')]\")"
+          }, {
+            "name" : "time",
+            "value" : "25"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "enter_email",
+        "time" : {
+          "start" : 1611207668573,
+          "stop" : 1611207669756,
+          "duration" : 1183
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "find_element",
+          "time" : {
+            "start" : 1611207668574,
+            "stop" : 1611207668687,
+            "duration" : 113
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', \"//input[@name='login']\")"
+          }, {
+            "name" : "time",
+            "value" : "25"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "login",
+          "value" : "'radwexe@mail.ru'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "enter_password",
+        "time" : {
+          "start" : 1611207669756,
+          "stop" : 1611207670592,
+          "duration" : 836
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "find_element",
+          "time" : {
+            "start" : 1611207669756,
+            "stop" : 1611207669949,
+            "duration" : 193
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', \"//input[@name='password']\")"
+          }, {
+            "name" : "time",
+            "value" : "25"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "pas",
+          "value" : "'111'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "click_on_the_enter_button",
+        "time" : {
+          "start" : 1611207670592,
+          "stop" : 1611207671699,
+          "duration" : 1107
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "find_element",
+          "time" : {
+            "start" : 1611207670592,
+            "stop" : 1611207670919,
+            "duration" : 327
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', \"//button[contains(text(), 'Войти')]\")"
+          }, {
+            "name" : "time",
+            "value" : "25"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "acc",
+        "value" : "{'login': 'radwexe@mail.ru', 'pass': '111'}"
+      } ],
+      "stepsCount" : 8,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "login_check",
+      "time" : {
+        "start" : 1611207671699,
+        "stop" : 1611207690089,
+        "duration" : 18390
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "find_element",
+        "time" : {
+          "start" : 1611207671700,
+          "stop" : 1611207689968,
+          "duration" : 18268
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('link text', 'Создать курс в папке')"
+        }, {
+          "name" : "time",
+          "value" : "25"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1611207690091,
+      "stop" : 1611207690207,
+      "duration" : 116
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "login"
+  }, {
+    "name" : "tag",
+    "value" : "test_UI"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.Regression testing.Smoke tests.Login"
+  }, {
+    "name" : "suite",
+    "value" : "test_TestSmokeTesting"
+  }, {
+    "name" : "host",
+    "value" : "fv-az32-77"
+  }, {
+    "name" : "thread",
+    "value" : "5014-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.Regression testing.Smoke tests.Login.test_TestSmokeTesting"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://app.qase.io/case/AT-1",
+    "url" : "https://app.qase.io/case/AT-1",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "e679660cc30f902e",
+        "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/12//#testresult/e679660cc30f902e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611122688016,
+          "stop" : 1611122715165,
+          "duration" : 27149
+        }
+      }, {
+        "uid" : "9433d8e3a5ec8435",
+        "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/11//#testresult/9433d8e3a5ec8435",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', \"//span[contains(text(),'Войти1')]\")",
+        "time" : {
+          "start" : 1611121058201,
+          "stop" : 1611121090432,
+          "duration" : 32231
+        }
+      }, {
+        "uid" : "2b0fc55913fb0acd",
+        "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/10//#testresult/2b0fc55913fb0acd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611116764342,
+          "stop" : 1611116795953,
+          "duration" : 31611
+        }
+      } ]
+    },
+    "tags" : [ "test_UI", "smoke" ]
+  },
+  "source" : "742a691b6a055da9.json",
+  "parameterValues" : [ ]
+}
