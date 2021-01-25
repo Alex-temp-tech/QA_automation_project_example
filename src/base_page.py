@@ -2,7 +2,6 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from visual_regression_tracker import VisualRegressionTracker, Config, TestRun
 from src import save_token
-from tests import conftest
 import allure
 
 
@@ -13,38 +12,45 @@ class BasePage:
         self.base_url_token = "https://antitreningi.ru/account/auth?&token=" + save_token.token()
 
     @allure.step
-    def find_element(self, locator, time=conftest.T_OUT):
+    def find_element(self, locator, time=25):
         return WebDriverWait(self.driver, time).until(EC.presence_of_element_located(locator),
                                                       message=f"Can't find element by locator {locator}")
+
     @allure.step
-    def find_elements(self, locator, time=conftest.T_OUT):
+    def find_elements(self, locator, time=25):
         return WebDriverWait(self.driver, time).until(EC.presence_of_all_elements_located(locator),
                                                       message=f"Can't find elements by locator {locator}")
+
     @allure.step
     def go_to_site(self, url):
         self.driver.get(self.base_url + url)
+        return self
 
     @allure.step
     def go_to_site_through_token(self):
         self.driver.get(self.base_url_token)
+        return self
 
     @allure.step
     def switch_iframe(self, locator):
         self.driver.switch_to_frame(locator)
+        return self
 
     @allure.step
     def switch_from_iframe(self):
         self.driver.switch_to_default_content()
+        return self
 
     @allure.step
     def screenshot(self):
         self.driver.get_screenshot_as_png()
+        return self
 
     @allure.step
     def screenshot_for_vrt(self):
         return self.driver.get_screenshot_as_base64()
 
-    def screenshot_check(self,vrt_name, vrt_viewport, vrt_os, vrt_device):
+    def  screenshot_check(self, vrt_name, vrt_viewport, vrt_os, vrt_device):
         config = Config(
             # apiUrl - URL where backend is running
             apiUrl='http://104.248.78.141:4200',
@@ -72,3 +78,4 @@ class BasePage:
                 viewport=vrt_viewport,
                 device=vrt_device,
             ))
+        return self

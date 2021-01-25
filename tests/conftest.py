@@ -6,8 +6,10 @@ from selenium import webdriver
 from src import browsers
 import allure
 from allure_commons.types import AttachmentType
+from src.app import App
 
 T_OUT = 25
+
 ip_selenoid_serv = "http://128.199.103.130:4444/wd/hub"
 ip_selenoid_mac = "http://localhost:4444/wd/hub"
 
@@ -57,6 +59,9 @@ def browser(request):
     #allure.attach(browser.get_screenshot_as_png(), name="Screenshot", attachment_type=AttachmentType.PNG)
     browser.quit()
 
+@pytest.fixture(scope="function")
+def app(browser):
+    yield App(browser)
 
 #If our test fall ad screenshon to allure
 @pytest.hookimpl(tryfirst=True, hookwrapper=True)
@@ -79,3 +84,4 @@ def pytest_runtest_makereport(item, call):
             )
         except Exception as e:
             print('Fail to take screen-shot: {}'.format(e))
+
