@@ -1,0 +1,61 @@
+[ {
+  "uid" : "af5677c581468bcb",
+  "name" : "test_AT_6_vrt_main_page",
+  "time" : {
+    "start" : 1611544129157,
+    "stop" : 1611544141931,
+    "duration" : 12774
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c409c9278cef7b73",
+  "name" : "test_AT_4_login_from_login_page_with_invalid_credentials",
+  "time" : {
+    "start" : 1611544113213,
+    "stop" : 1611544124367,
+    "duration" : 11154
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f36544c37f605e9",
+  "name" : "test_AT_3_login_from_login_page_with_valid_credentials",
+  "time" : {
+    "start" : 1611544113008,
+    "stop" : 1611544137489,
+    "duration" : 24481
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33921cb1f19f552d",
+  "name" : "test_AT_1_login_from_main_page_with_valid_credentials",
+  "time" : {
+    "start" : 1611544114601,
+    "stop" : 1611544138545,
+    "duration" : 23944
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88fdb312c56a0daf",
+  "name" : "test_AT_2_login_from_main_page_with_invalid_credentials",
+  "time" : {
+    "start" : 1611544115866,
+    "stop" : 1611544125968,
+    "duration" : 10102
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "629bc7f2c5d74cf1",
+  "name" : "test_AT_5_login_from_token",
+  "time" : {
+    "start" : 1611544140684,
+    "stop" : 1611544148215,
+    "duration" : 7531
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
