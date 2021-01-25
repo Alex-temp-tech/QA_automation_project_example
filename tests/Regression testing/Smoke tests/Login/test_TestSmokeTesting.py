@@ -1,6 +1,6 @@
 import allure
 import pytest
-from src import accounts
+from src.accounts import acc
 
 @allure.testcase("https://app.qase.io/case/AT-1")
 @allure.feature("login")
@@ -10,7 +10,7 @@ from src import accounts
 def test_AT_1_login_from_main_page_with_valid_credentials(app):
     app.main_page() \
         .go_to_site("/") \
-        .full_login(accounts.acc["radwexe"]) \
+        .full_login(acc["radwexe"]) \
         .login_check()
 
 @allure.testcase("https://app.qase.io/case/AT-2")
@@ -21,7 +21,7 @@ def test_AT_1_login_from_main_page_with_valid_credentials(app):
 def test_AT_2_login_from_main_page_with_invalid_credentials(app):
     app.main_page() \
         .go_to_site("/") \
-        .full_login(accounts.acc["radwexe_invalid"]) \
+        .full_login(acc["radwexe_invalid"]) \
         .check_invalid_credentials()
 
 @allure.testcase("https://app.qase.io/case/AT-3")
@@ -32,7 +32,7 @@ def test_AT_2_login_from_main_page_with_invalid_credentials(app):
 def test_AT_3_login_from_login_page_with_valid_credentials(app):
     app.login_page() \
         .go_to_site("/login") \
-        .full_login(accounts.acc["radwexe"]) \
+        .full_login(acc["radwexe"]) \
         .login_check()
 
 @allure.testcase("https://app.qase.io/case/AT-4")
@@ -43,7 +43,7 @@ def test_AT_3_login_from_login_page_with_valid_credentials(app):
 def test_AT_4_login_from_login_page_with_invalid_credentials(app):
     app.login_page() \
         .go_to_site("/login") \
-        .full_login(accounts.acc["radwexe_invalid"]) \
+        .full_login(acc["radwexe_invalid"]) \
         .check_invalid_credentials()
 
 @allure.testcase("https://app.qase.io/case/AT-5")

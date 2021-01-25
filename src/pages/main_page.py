@@ -1,8 +1,6 @@
 from selenium.webdriver.common.by import By
-from src.base_page import BasePage
 import allure
-import time
-
+from src.base_page import BasePage
 
 class MainPageLoginLokators:
     LOCATOR_BUTTON_LOGIN = (By.XPATH, "//span[contains(text(),'Войти')]")

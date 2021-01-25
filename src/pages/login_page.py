@@ -1,9 +1,6 @@
 from selenium.webdriver.common.by import By
 from src.base_page import BasePage
 import allure
-from visual_regression_tracker import VisualRegressionTracker, Config, TestRun
-import time
-
 
 class MainPageLoginLokators:
     LOCATOR_EMAIL_FIELD = (By.XPATH, "//*[@type='email']")
