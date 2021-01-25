@@ -1,36 +1,3 @@
 [ {
-  "buildOrder" : 14,
-  "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/14/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 35207
-  }
-}, {
-  "buildOrder" : 13,
-  "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/13/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 49483
-  }
-}, {
-  "buildOrder" : 12,
-  "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/12/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 39569
-  }
-}, {
-  "buildOrder" : 11,
-  "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/11/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 89090
-  }
-}, {
-  "buildOrder" : 10,
-  "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/10/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 48838
-  }
+  "data" : { }
 } ]
