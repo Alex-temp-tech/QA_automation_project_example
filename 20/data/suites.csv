@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jan 26 09:46:49 GMT 2021","Tue Jan 26 09:47:01 GMT 2021","11783","tests.Regression testing.Smoke tests.Login","test_TestSmokeTesting","","","","test_AT_2_login_from_main_page_with_invalid_credentials",""
+"passed","Tue Jan 26 09:47:16 GMT 2021","Tue Jan 26 09:47:23 GMT 2021","7169","tests.Regression testing.Smoke tests.Login","test_TestSmokeTesting","","","","test_AT_5_login_from_token",""
+"passed","Tue Jan 26 09:46:50 GMT 2021","Tue Jan 26 09:47:16 GMT 2021","25746","tests.Regression testing.Smoke tests.Login","test_TestSmokeTesting","","","","test_AT_3_login_from_login_page_with_valid_credentials",""
+"passed","Tue Jan 26 09:46:50 GMT 2021","Tue Jan 26 09:47:14 GMT 2021","24684","tests.Regression testing.Smoke tests.Login","test_TestSmokeTesting","","","","test_AT_1_login_from_main_page_with_valid_credentials",""
+"broken","Tue Jan 26 09:47:05 GMT 2021","Tue Jan 26 09:47:12 GMT 2021","7658","tests.Regression testing.VRT.Main_page","test_Regression_testing_VRT_Main_page","","","","test_AT_6_vrt_main_page",""
+"passed","Tue Jan 26 09:46:51 GMT 2021","Tue Jan 26 09:47:02 GMT 2021","11209","tests.Regression testing.Smoke tests.Login","test_TestSmokeTesting","","","","test_AT_4_login_from_login_page_with_invalid_credentials",""

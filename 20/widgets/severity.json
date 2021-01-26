@@ -1,0 +1,61 @@
+[ {
+  "uid" : "fc192a6433d37544",
+  "name" : "test_AT_5_login_from_token",
+  "time" : {
+    "start" : 1611654436763,
+    "stop" : 1611654443932,
+    "duration" : 7169
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3de7b7d669ca353d",
+  "name" : "test_AT_2_login_from_main_page_with_invalid_credentials",
+  "time" : {
+    "start" : 1611654409858,
+    "stop" : 1611654421641,
+    "duration" : 11783
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4df19f6b80206d4",
+  "name" : "test_AT_1_login_from_main_page_with_valid_credentials",
+  "time" : {
+    "start" : 1611654410066,
+    "stop" : 1611654434750,
+    "duration" : 24684
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c44eb54d7e7d9cd7",
+  "name" : "test_AT_4_login_from_login_page_with_invalid_credentials",
+  "time" : {
+    "start" : 1611654411067,
+    "stop" : 1611654422276,
+    "duration" : 11209
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "915b0cd742cded7a",
+  "name" : "test_AT_6_vrt_main_page",
+  "time" : {
+    "start" : 1611654425090,
+    "stop" : 1611654432748,
+    "duration" : 7658
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e7e7165f243f5ada",
+  "name" : "test_AT_3_login_from_login_page_with_valid_credentials",
+  "time" : {
+    "start" : 1611654410294,
+    "stop" : 1611654436040,
+    "duration" : 25746
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
