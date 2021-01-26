@@ -7,6 +7,14 @@
     "retry" : 0
   }
 }, {
+  "buildOrder" : 21,
+  "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/21/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 6,
+    "retry" : 0
+  }
+}, {
   "buildOrder" : 20,
   "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/20/",
   "reportName" : "Allure Report with history",
