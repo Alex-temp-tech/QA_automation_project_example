@@ -2,6 +2,7 @@ from selenium.webdriver.common.by import By
 import allure
 from src.base_page import BasePage
 
+
 class MainPageLoginLokators:
     LOCATOR_BUTTON_LOGIN = (By.XPATH, "//span[contains(text(),'Войти')]")
     LOCATOR_EMAIL_FIELD = (By.XPATH, "//input[@name='login']")

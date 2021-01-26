@@ -1,6 +1,7 @@
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from visual_regression_tracker import VisualRegressionTracker, Config, TestRun
+from configuration import Configuration
 from src import save_token
 import allure
 
@@ -8,18 +9,18 @@ import allure
 class BasePage:
     def __init__(self, browser):
         self.driver = browser
-        self.base_url = "https://antitreningi.ru"
-        self.base_url_token = "https://antitreningi.ru/account/auth?&token=" + save_token.token()
+        self.base_url = Configuration.base_url
+        self.base_url_token = Configuration.base_url + save_token.token()
 
     @allure.step
-    def find_element(self, locator, time=25):
-        return WebDriverWait(self.driver, time).until(EC.presence_of_element_located(locator),
-                                                      message=f"Can't find element by locator {locator}")
+    def find_element(self, locator):
+        return WebDriverWait(self.driver, Configuration.time_out).until(EC.presence_of_element_located(locator),
+                                                                        message=f"Can't find element by locator {locator}")
 
     @allure.step
-    def find_elements(self, locator, time=25):
-        return WebDriverWait(self.driver, time).until(EC.presence_of_all_elements_located(locator),
-                                                      message=f"Can't find elements by locator {locator}")
+    def find_elements(self, locator):
+        return WebDriverWait(self.driver, Configuration.time_out).until(EC.presence_of_all_elements_located(locator),
+                                                                        message=f"Can't find elements by locator {locator}")
 
     @allure.step
     def go_to_site(self, url):
@@ -50,20 +51,20 @@ class BasePage:
     def screenshot_for_vrt(self):
         return self.driver.get_screenshot_as_base64()
 
-    def  screenshot_check(self, vrt_name, vrt_viewport, vrt_os, vrt_device):
+    def screenshot_check(self, vrt_name, vrt_viewport, vrt_os, vrt_device):
         config = Config(
             # apiUrl - URL where backend is running
-            apiUrl='http://104.248.78.141:4200',
+            apiUrl=Configuration.vrt_apiUrl,
             # project - Project name or ID
-            project='at-test',
+            project=Configuration.vrt_project,
             # apiKey - User apiKey
-            apiKey='YYJSBHYHD0MB77PFBNBFJ6X79FRZ',
+            apiKey=Configuration.vrt_apiKey,
             # ciBuildId - Current git commit SHA
-            ciBuildId='prod',
+            ciBuildId=Configuration.vrt_ciBuildId,
             # branch - Current git branch
-            branchName='at-test',
+            branchName=Configuration.vrt_branchName,
             # enableSoftAssert - Log errors instead of exceptions
-            enableSoftAssert=False,
+            enableSoftAssert=Configuration.vrt_enableSoftAssert,
         )
 
         vrt = VisualRegressionTracker(config)
