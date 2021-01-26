@@ -1,0 +1,177 @@
+{
+  "uid" : "81615771615a64f9",
+  "name" : "test_AT_6_vrt_main_page",
+  "fullName" : "tests.Regression testing.VRT.Main_page.test_Regression_testing_VRT_Main_page#test_AT_6_vrt_main_page",
+  "historyId" : "5ce805ea10db0a573c0a40bfd8a75fd7",
+  "time" : {
+    "start" : 1611654143976,
+    "stop" : 1611654154428,
+    "duration" : 10452
+  },
+  "status" : "broken",
+  "statusMessage" : "visual_regression_tracker.exceptions.TestRunError: ('Difference found: http://localhost:8080/17e877ec-1c7a-4720-8f78-3c506107edf8?buildId=9930ad4d-e9ce-4198-910a-1a93f2c357ea&testId=d7a624fa-fbb6-441c-b701-8e91b07d7c8f', <TestRunStatus.UNRESOLVED: 'unresolved'>)",
+  "statusTrace" : "app = <src.app.App object at 0x7f14e4e60e20>\n\n    @allure.testcase(\"https://app.qase.io/case/AT-6\")\n    @allure.feature(\"main_page\")\n    @allure.title(\"test_AT_6_vrt_main_page\")\n    @pytest.mark.smoke\n    @allure.tag(\"test_UI\")\n    def test_AT_6_vrt_main_page(app):\n>       app.main_page() \\\n            .go_to_site(\"/\") \\\n            .screenshot_check('test_AT_6_vrt_main_page', '1920x964', 'linux', 'selenoid')\n\ntests/Regression testing/VRT/Main_page/test_Regression_testing_VRT_Main_page.py:10: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nsrc/base_page.py:73: in screenshot_check\n    vrt.track(TestRun(\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <visual_regression_tracker.visualRegressionTracker.VisualRegressionTracker object at 0x7f14ddf9dd60>\ntest = TestRun(name='test_AT_6_vrt_main_page', imageBase64='iVBORw0KGgoAAAANSUhEUgAAB4AAAAPECAYAAABPJCavAAAAAXNSR0IArs4c6QAAI...gg==', os='linux', browser='Chrome', viewport='1920x964', device='selenoid', diffTollerancePercent=0, ignoreAreas=None)\n\n    def track(self, test: TestRun):\n        result = self._submitTestResult(test)\n    \n        switcher = {\n            TestRunStatus.NEW: f'No baseline: {result.url}',\n            TestRunStatus.UNRESOLVED: f'Difference found: {result.url}'\n        }\n        error_message = switcher.get(result.status, '')\n    \n        if error_message:\n            if self.config.enableSoftAssert:\n                logging.getLogger(__name__).error(error_message)\n            else:\n>               raise TestRunError(result.status, error_message)\nE               visual_regression_tracker.exceptions.TestRunError: ('Difference found: http://localhost:8080/17e877ec-1c7a-4720-8f78-3c506107edf8?buildId=9930ad4d-e9ce-4198-910a-1a93f2c357ea&testId=d7a624fa-fbb6-441c-b701-8e91b07d7c8f', <TestRunStatus.UNRESOLVED: 'unresolved'>)\n\n/opt/hostedtoolcache/Python/3.8.6/x64/lib/python3.8/site-packages/visual_regression_tracker/visualRegressionTracker.py:106: TestRunError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "app",
+    "time" : {
+      "start" : 1611654143975,
+      "stop" : 1611654143975,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1611654140856,
+      "stop" : 1611654143975,
+      "duration" : 3119
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "visual_regression_tracker.exceptions.TestRunError: ('Difference found: http://localhost:8080/17e877ec-1c7a-4720-8f78-3c506107edf8?buildId=9930ad4d-e9ce-4198-910a-1a93f2c357ea&testId=d7a624fa-fbb6-441c-b701-8e91b07d7c8f', <TestRunStatus.UNRESOLVED: 'unresolved'>)",
+    "statusTrace" : "app = <src.app.App object at 0x7f14e4e60e20>\n\n    @allure.testcase(\"https://app.qase.io/case/AT-6\")\n    @allure.feature(\"main_page\")\n    @allure.title(\"test_AT_6_vrt_main_page\")\n    @pytest.mark.smoke\n    @allure.tag(\"test_UI\")\n    def test_AT_6_vrt_main_page(app):\n>       app.main_page() \\\n            .go_to_site(\"/\") \\\n            .screenshot_check('test_AT_6_vrt_main_page', '1920x964', 'linux', 'selenoid')\n\ntests/Regression testing/VRT/Main_page/test_Regression_testing_VRT_Main_page.py:10: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nsrc/base_page.py:73: in screenshot_check\n    vrt.track(TestRun(\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <visual_regression_tracker.visualRegressionTracker.VisualRegressionTracker object at 0x7f14ddf9dd60>\ntest = TestRun(name='test_AT_6_vrt_main_page', imageBase64='iVBORw0KGgoAAAANSUhEUgAAB4AAAAPECAYAAABPJCavAAAAAXNSR0IArs4c6QAAI...gg==', os='linux', browser='Chrome', viewport='1920x964', device='selenoid', diffTollerancePercent=0, ignoreAreas=None)\n\n    def track(self, test: TestRun):\n        result = self._submitTestResult(test)\n    \n        switcher = {\n            TestRunStatus.NEW: f'No baseline: {result.url}',\n            TestRunStatus.UNRESOLVED: f'Difference found: {result.url}'\n        }\n        error_message = switcher.get(result.status, '')\n    \n        if error_message:\n            if self.config.enableSoftAssert:\n                logging.getLogger(__name__).error(error_message)\n            else:\n>               raise TestRunError(result.status, error_message)\nE               visual_regression_tracker.exceptions.TestRunError: ('Difference found: http://localhost:8080/17e877ec-1c7a-4720-8f78-3c506107edf8?buildId=9930ad4d-e9ce-4198-910a-1a93f2c357ea&testId=d7a624fa-fbb6-441c-b701-8e91b07d7c8f', <TestRunStatus.UNRESOLVED: 'unresolved'>)\n\n/opt/hostedtoolcache/Python/3.8.6/x64/lib/python3.8/site-packages/visual_regression_tracker/visualRegressionTracker.py:106: TestRunError",
+    "steps" : [ {
+      "name" : "go_to_site",
+      "time" : {
+        "start" : 1611654144510,
+        "stop" : 1611654148866,
+        "duration" : 4356
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'/'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "screenshot_for_vrt",
+      "time" : {
+        "start" : 1611654148866,
+        "stop" : 1611654150722,
+        "duration" : 1856
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "66bee91fe130fd79",
+      "name" : "screenshot",
+      "source" : "66bee91fe130fd79.png",
+      "type" : "image/png",
+      "size" : 200200
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "app::0",
+    "time" : {
+      "start" : 1611654155563,
+      "stop" : 1611654155563,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1611654155563,
+      "stop" : 1611654155679,
+      "duration" : 116
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "main_page"
+  }, {
+    "name" : "tag",
+    "value" : "test_UI"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.Regression testing.VRT.Main_page"
+  }, {
+    "name" : "suite",
+    "value" : "test_Regression_testing_VRT_Main_page"
+  }, {
+    "name" : "host",
+    "value" : "fv-az67-753"
+  }, {
+    "name" : "thread",
+    "value" : "4810-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.Regression testing.VRT.Main_page.test_Regression_testing_VRT_Main_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://app.qase.io/case/AT-6",
+    "url" : "https://app.qase.io/case/AT-6",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "test_UI", "smoke" ]
+  },
+  "source" : "81615771615a64f9.json",
+  "parameterValues" : [ ]
+}
