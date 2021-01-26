@@ -3,22 +3,22 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "visual_regression_tracker.exceptions.ServerError: {\n  \"path\": \"/builds\",\n  \"name\": \"Error\",\n  \"message\": \"\\nInvalid `prisma.project.findUnique()` invocation:\\n\\n\\n  Error in connector: Error querying the database: connection closed\",\n  \"exception\": {\n    \"clientVersion\": \"2.12.1\"\n  },\n  \"stack\": \"Error: \\nInvalid `prisma.project.findUnique()` invocation:\\n\\n\\n  Error in connector: Error querying the database: connection closed\\n    at PrismaClientFetcher.request (/node_modules/@prisma/client/runtime/index.js:79359:15)\\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\"\n}",
+      "name" : "visual_regression_tracker.exceptions.ServerError: Unauthorized",
       "children" : [ {
         "name" : "test_AT_6_vrt_main_page",
-        "uid" : "915b0cd742cded7a",
-        "parentUid" : "09ad151fc51f80b6e9f81cb8c658931c",
+        "uid" : "2a0e228e430ec83a",
+        "parentUid" : "3666922d49366cdcc03ba1cf45c9f1ca",
         "status" : "broken",
         "time" : {
-          "start" : 1611654425090,
-          "stop" : 1611654432748,
-          "duration" : 7658
+          "start" : 1611654718038,
+          "stop" : 1611654726401,
+          "duration" : 8363
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "09ad151fc51f80b6e9f81cb8c658931c"
+      "uid" : "3666922d49366cdcc03ba1cf45c9f1ca"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

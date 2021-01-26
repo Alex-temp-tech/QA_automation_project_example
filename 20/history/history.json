@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "84fe3529cc36ef33",
+      "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/20//#testresult/84fe3529cc36ef33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611654702432,
+        "stop" : 1611654728395,
+        "duration" : 25963
+      }
+    }, {
       "uid" : "e4df19f6b80206d4",
       "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/20//#testresult/e4df19f6b80206d4",
       "status" : "passed",
@@ -42,11 +51,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "115222be5d289492",
+      "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/20//#testresult/115222be5d289492",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611654703675,
+        "stop" : 1611654727727,
+        "duration" : 24052
+      }
+    }, {
       "uid" : "e7e7165f243f5ada",
       "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/20//#testresult/e7e7165f243f5ada",
       "status" : "passed",
@@ -78,13 +96,23 @@
   "5ce805ea10db0a573c0a40bfd8a75fd7" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 3,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "2a0e228e430ec83a",
+      "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/20//#testresult/2a0e228e430ec83a",
+      "status" : "broken",
+      "statusDetails" : "visual_regression_tracker.exceptions.ServerError: Unauthorized",
+      "time" : {
+        "start" : 1611654718038,
+        "stop" : 1611654726401,
+        "duration" : 8363
+      }
+    }, {
       "uid" : "915b0cd742cded7a",
       "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/20//#testresult/915b0cd742cded7a",
       "status" : "broken",
@@ -120,11 +148,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "2856ad03b8ef2c1d",
+      "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/20//#testresult/2856ad03b8ef2c1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611654702812,
+        "stop" : 1611654713965,
+        "duration" : 11153
+      }
+    }, {
       "uid" : "c44eb54d7e7d9cd7",
       "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/20//#testresult/c44eb54d7e7d9cd7",
       "status" : "passed",
@@ -158,11 +195,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "f7b85700dc147b71",
+      "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/20//#testresult/f7b85700dc147b71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611654729816,
+        "stop" : 1611654741296,
+        "duration" : 11480
+      }
+    }, {
       "uid" : "fc192a6433d37544",
       "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/20//#testresult/fc192a6433d37544",
       "status" : "passed",
@@ -196,11 +242,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "11fed70184579cf4",
+      "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/20//#testresult/11fed70184579cf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611654702858,
+        "stop" : 1611654714952,
+        "duration" : 12094
+      }
+    }, {
       "uid" : "3de7b7d669ca353d",
       "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/20//#testresult/3de7b7d669ca353d",
       "status" : "passed",

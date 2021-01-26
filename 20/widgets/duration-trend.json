@@ -3,6 +3,13 @@
   "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/20/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "duration" : 38864
+  }
+}, {
+  "buildOrder" : 20,
+  "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/20/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "duration" : 34074
   }
 }, {
