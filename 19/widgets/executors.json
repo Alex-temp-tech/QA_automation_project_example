@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://Alex-temp-tech.github.io/QA_automation_project_example",
+  "buildOrder" : 19,
+  "buildName" : "GitHub Actions Run #511727558",
+  "buildUrl" : "https://github.com/Alex-temp-tech/QA_automation_project_example/actions/runs/511727558",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/19/"
+} ]

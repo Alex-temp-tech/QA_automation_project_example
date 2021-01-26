@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "visual_regression_tracker.exceptions.TestRunError: ('No baseline: http://localhost:8080/17e877ec-1c7a-4720-8f78-3c506107edf8?buildId=9930ad4d-e9ce-4198-910a-1a93f2c357ea&testId=47f185a6-af8a-4d71-b057-87386f083d19', <TestRunStatus.NEW: 'new'>)",
+      "children" : [ {
+        "name" : "test_AT_6_vrt_main_page",
+        "uid" : "54b758f68bd28d8a",
+        "parentUid" : "4f7bea6c2c4befe7984c165fbf04a351",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611653917719,
+          "stop" : 1611653921788,
+          "duration" : 4069
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4f7bea6c2c4befe7984c165fbf04a351"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
