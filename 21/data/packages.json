@@ -1,0 +1,95 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "tests.Regression testing",
+    "children" : [ {
+      "name" : "Smoke tests.Login.test_TestSmokeTesting",
+      "children" : [ {
+        "name" : "test_AT_1_login_from_main_page_with_valid_credentials",
+        "uid" : "c35ca4eff6493b69",
+        "parentUid" : "8d93cfa44b946781546be451777d2213",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611655162387,
+          "stop" : 1611655173052,
+          "duration" : 10665
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_2_login_from_main_page_with_invalid_credentials",
+        "uid" : "152c068402dca74f",
+        "parentUid" : "8d93cfa44b946781546be451777d2213",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611655174431,
+          "stop" : 1611655179027,
+          "duration" : 4596
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_3_login_from_login_page_with_valid_credentials",
+        "uid" : "c26130506001d4b",
+        "parentUid" : "8d93cfa44b946781546be451777d2213",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611655180508,
+          "stop" : 1611655192130,
+          "duration" : 11622
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_4_login_from_login_page_with_invalid_credentials",
+        "uid" : "cecf7405d8b9029e",
+        "parentUid" : "8d93cfa44b946781546be451777d2213",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611655193605,
+          "stop" : 1611655199164,
+          "duration" : 5559
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_5_login_from_token",
+        "uid" : "61364a0b42868ae9",
+        "parentUid" : "8d93cfa44b946781546be451777d2213",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611655200616,
+          "stop" : 1611655208642,
+          "duration" : 8026
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "Smoke tests.Login.test_TestSmokeTesting"
+    }, {
+      "name" : "VRT.Main_page.test_Regression_testing_VRT_Main_page",
+      "children" : [ {
+        "name" : "test_AT_6_vrt_main_page",
+        "uid" : "dd0c8a590b2d77dc",
+        "parentUid" : "2dd65435fd6b16a42985a1ab36a7f0d2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611655210143,
+          "stop" : 1611655213705,
+          "duration" : 3562
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "VRT.Main_page.test_Regression_testing_VRT_Main_page"
+    } ],
+    "uid" : "tests.Regression testing"
+  } ],
+  "name" : "packages"
+}

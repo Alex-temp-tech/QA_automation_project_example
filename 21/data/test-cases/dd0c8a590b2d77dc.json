@@ -1,0 +1,233 @@
+{
+  "uid" : "dd0c8a590b2d77dc",
+  "name" : "test_AT_6_vrt_main_page",
+  "fullName" : "tests.Regression testing.VRT.Main_page.test_Regression_testing_VRT_Main_page#test_AT_6_vrt_main_page",
+  "historyId" : "5ce805ea10db0a573c0a40bfd8a75fd7",
+  "time" : {
+    "start" : 1611655210143,
+    "stop" : 1611655213705,
+    "duration" : 3562
+  },
+  "status" : "broken",
+  "statusMessage" : "visual_regression_tracker.exceptions.ServerError: Unauthorized",
+  "statusTrace" : "app = <src.app.App object at 0x7f0b3eb99a00>\n\n    @allure.testcase(\"https://app.qase.io/case/AT-6\")\n    @allure.feature(\"main_page\")\n    @allure.title(\"test_AT_6_vrt_main_page\")\n    @pytest.mark.smoke\n    @allure.tag(\"test_UI\")\n    def test_AT_6_vrt_main_page(app):\n>       app.main_page() \\\n            .go_to_site(\"/\") \\\n            .screenshot_check('test_AT_6_vrt_main_page', '1920x964', 'linux', 'selenoid')\n\ntests/Regression testing/VRT/Main_page/test_Regression_testing_VRT_Main_page.py:10: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nsrc/base_page.py:72: in screenshot_check\n    with vrt:\n/opt/hostedtoolcache/Python/3.8.6/x64/lib/python3.8/site-packages/visual_regression_tracker/visualRegressionTracker.py:64: in __enter__\n    self.start()\n/opt/hostedtoolcache/Python/3.8.6/x64/lib/python3.8/site-packages/visual_regression_tracker/visualRegressionTracker.py:39: in start\n    result = _http_request(\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nurl = 'http://104.248.78.141:4200/builds', method = 'post'\ndata = {'branchName': 'at-test', 'ciBuildId': 'prod', 'project': 'at-test'}\nheaders = {'apiKey': 'YYJSBHYHD0MB77PFBNBFJ6X79FRZ'}\n\n    def _http_request(url: str, method: str, data: dict, headers: dict) -> dict:\n        request = getattr(requests, method.lower())\n        response = request(url, json=data, headers=headers)\n        status = response.status_code\n        result = response.json()\n    \n        if status == 401:\n>           raise ServerError('Unauthorized')\nE           visual_regression_tracker.exceptions.ServerError: Unauthorized\n\n/opt/hostedtoolcache/Python/3.8.6/x64/lib/python3.8/site-packages/visual_regression_tracker/visualRegressionTracker.py:118: ServerError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "app",
+    "time" : {
+      "start" : 1611655210142,
+      "stop" : 1611655210142,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1611655208704,
+      "stop" : 1611655210142,
+      "duration" : 1438
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "visual_regression_tracker.exceptions.ServerError: Unauthorized",
+    "statusTrace" : "app = <src.app.App object at 0x7f0b3eb99a00>\n\n    @allure.testcase(\"https://app.qase.io/case/AT-6\")\n    @allure.feature(\"main_page\")\n    @allure.title(\"test_AT_6_vrt_main_page\")\n    @pytest.mark.smoke\n    @allure.tag(\"test_UI\")\n    def test_AT_6_vrt_main_page(app):\n>       app.main_page() \\\n            .go_to_site(\"/\") \\\n            .screenshot_check('test_AT_6_vrt_main_page', '1920x964', 'linux', 'selenoid')\n\ntests/Regression testing/VRT/Main_page/test_Regression_testing_VRT_Main_page.py:10: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nsrc/base_page.py:72: in screenshot_check\n    with vrt:\n/opt/hostedtoolcache/Python/3.8.6/x64/lib/python3.8/site-packages/visual_regression_tracker/visualRegressionTracker.py:64: in __enter__\n    self.start()\n/opt/hostedtoolcache/Python/3.8.6/x64/lib/python3.8/site-packages/visual_regression_tracker/visualRegressionTracker.py:39: in start\n    result = _http_request(\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nurl = 'http://104.248.78.141:4200/builds', method = 'post'\ndata = {'branchName': 'at-test', 'ciBuildId': 'prod', 'project': 'at-test'}\nheaders = {'apiKey': 'YYJSBHYHD0MB77PFBNBFJ6X79FRZ'}\n\n    def _http_request(url: str, method: str, data: dict, headers: dict) -> dict:\n        request = getattr(requests, method.lower())\n        response = request(url, json=data, headers=headers)\n        status = response.status_code\n        result = response.json()\n    \n        if status == 401:\n>           raise ServerError('Unauthorized')\nE           visual_regression_tracker.exceptions.ServerError: Unauthorized\n\n/opt/hostedtoolcache/Python/3.8.6/x64/lib/python3.8/site-packages/visual_regression_tracker/visualRegressionTracker.py:118: ServerError",
+    "steps" : [ {
+      "name" : "go_to_site",
+      "time" : {
+        "start" : 1611655210688,
+        "stop" : 1611655212696,
+        "duration" : 2008
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'/'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "screenshot_for_vrt",
+      "time" : {
+        "start" : 1611655212696,
+        "stop" : 1611655213598,
+        "duration" : 902
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "37f6bee7fef69c32",
+      "name" : "screenshot",
+      "source" : "37f6bee7fef69c32.png",
+      "type" : "image/png",
+      "size" : 200256
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "app::0",
+    "time" : {
+      "start" : 1611655214695,
+      "stop" : 1611655214695,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1611655214696,
+      "stop" : 1611655214749,
+      "duration" : 53
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "test_UI"
+  }, {
+    "name" : "feature",
+    "value" : "main_page"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.Regression testing.VRT.Main_page"
+  }, {
+    "name" : "suite",
+    "value" : "test_Regression_testing_VRT_Main_page"
+  }, {
+    "name" : "host",
+    "value" : "fv-az67-753"
+  }, {
+    "name" : "thread",
+    "value" : "4733-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.Regression testing.VRT.Main_page.test_Regression_testing_VRT_Main_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "https://app.qase.io/case/AT-6",
+    "url" : "https://app.qase.io/case/AT-6",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "2a0e228e430ec83a",
+        "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/20//#testresult/2a0e228e430ec83a",
+        "status" : "broken",
+        "statusDetails" : "visual_regression_tracker.exceptions.ServerError: Unauthorized",
+        "time" : {
+          "start" : 1611654718038,
+          "stop" : 1611654726401,
+          "duration" : 8363
+        }
+      }, {
+        "uid" : "915b0cd742cded7a",
+        "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/20//#testresult/915b0cd742cded7a",
+        "status" : "broken",
+        "statusDetails" : "visual_regression_tracker.exceptions.ServerError: {\n  \"path\": \"/builds\",\n  \"name\": \"Error\",\n  \"message\": \"\\nInvalid `prisma.project.findUnique()` invocation:\\n\\n\\n  Error in connector: Error querying the database: connection closed\",\n  \"exception\": {\n    \"clientVersion\": \"2.12.1\"\n  },\n  \"stack\": \"Error: \\nInvalid `prisma.project.findUnique()` invocation:\\n\\n\\n  Error in connector: Error querying the database: connection closed\\n    at PrismaClientFetcher.request (/node_modules/@prisma/client/runtime/index.js:79359:15)\\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\"\n}",
+        "time" : {
+          "start" : 1611654425090,
+          "stop" : 1611654432748,
+          "duration" : 7658
+        }
+      }, {
+        "uid" : "892e3a10bba7a032",
+        "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/19//#testresult/892e3a10bba7a032",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611654157949,
+          "stop" : 1611654164428,
+          "duration" : 6479
+        }
+      }, {
+        "uid" : "54b758f68bd28d8a",
+        "reportUrl" : "https://Alex-temp-tech.github.io/QA_automation_project_example/19//#testresult/54b758f68bd28d8a",
+        "status" : "broken",
+        "statusDetails" : "visual_regression_tracker.exceptions.TestRunError: ('No baseline: http://localhost:8080/17e877ec-1c7a-4720-8f78-3c506107edf8?buildId=9930ad4d-e9ce-4198-910a-1a93f2c357ea&testId=47f185a6-af8a-4d71-b057-87386f083d19', <TestRunStatus.NEW: 'new'>)",
+        "time" : {
+          "start" : 1611653917719,
+          "stop" : 1611653921788,
+          "duration" : 4069
+        }
+      } ]
+    },
+    "tags" : [ "test_UI", "smoke" ]
+  },
+  "source" : "dd0c8a590b2d77dc.json",
+  "parameterValues" : [ ]
+}

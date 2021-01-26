@@ -1,0 +1,91 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az67-753",
+    "children" : [ {
+      "name" : "4733-MainThread",
+      "children" : [ {
+        "name" : "test_AT_1_login_from_main_page_with_valid_credentials",
+        "uid" : "c35ca4eff6493b69",
+        "parentUid" : "fb28804836cefcf5376b961484c1453b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611655162387,
+          "stop" : 1611655173052,
+          "duration" : 10665
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_3_login_from_login_page_with_valid_credentials",
+        "uid" : "c26130506001d4b",
+        "parentUid" : "fb28804836cefcf5376b961484c1453b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611655180508,
+          "stop" : 1611655192130,
+          "duration" : 11622
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_2_login_from_main_page_with_invalid_credentials",
+        "uid" : "152c068402dca74f",
+        "parentUid" : "fb28804836cefcf5376b961484c1453b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611655174431,
+          "stop" : 1611655179027,
+          "duration" : 4596
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_6_vrt_main_page",
+        "uid" : "dd0c8a590b2d77dc",
+        "parentUid" : "fb28804836cefcf5376b961484c1453b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611655210143,
+          "stop" : 1611655213705,
+          "duration" : 3562
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_5_login_from_token",
+        "uid" : "61364a0b42868ae9",
+        "parentUid" : "fb28804836cefcf5376b961484c1453b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611655200616,
+          "stop" : 1611655208642,
+          "duration" : 8026
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_4_login_from_login_page_with_invalid_credentials",
+        "uid" : "cecf7405d8b9029e",
+        "parentUid" : "fb28804836cefcf5376b961484c1453b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611655193605,
+          "stop" : 1611655199164,
+          "duration" : 5559
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fb28804836cefcf5376b961484c1453b"
+    } ],
+    "uid" : "3719718a883b80e5e57f2fa1f0f2c6c5"
+  } ],
+  "name" : "timeline"
+}

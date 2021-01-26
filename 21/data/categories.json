@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "visual_regression_tracker.exceptions.ServerError: Unauthorized",
+      "children" : [ {
+        "name" : "test_AT_6_vrt_main_page",
+        "uid" : "dd0c8a590b2d77dc",
+        "parentUid" : "3666922d49366cdcc03ba1cf45c9f1ca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611655210143,
+          "stop" : 1611655213705,
+          "duration" : 3562
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3666922d49366cdcc03ba1cf45c9f1ca"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
