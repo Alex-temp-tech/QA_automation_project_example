@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='104.248.78.141', port=4200): Max retries exceeded with url: /builds (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f57a5cb9130>: Failed to establish a new connection: [Errno 110] Connection timed out'))",
+      "children" : [ {
+        "name" : "test_AT_6_vrt_main_page",
+        "uid" : "6f2413d914cd08a8",
+        "parentUid" : "150b4900c18b4fef07b0aeb51ba21129",
+        "status" : "broken",
+        "time" : {
+          "start" : 1612071252123,
+          "stop" : 1612071389046,
+          "duration" : 136923
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "150b4900c18b4fef07b0aeb51ba21129"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

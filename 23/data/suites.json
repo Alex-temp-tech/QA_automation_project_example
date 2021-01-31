@@ -1,0 +1,99 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests.Regression testing.Smoke tests.Login",
+    "children" : [ {
+      "name" : "test_TestSmokeTesting",
+      "children" : [ {
+        "name" : "test_AT_3_login_from_login_page_with_valid_credentials",
+        "uid" : "3236e8c0012f8876",
+        "parentUid" : "fd6784a57e230ad11754ff49284406a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612071236564,
+          "stop" : 1612071264065,
+          "duration" : 27501
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_1_login_from_main_page_with_valid_credentials",
+        "uid" : "af06340a9fe7d5e9",
+        "parentUid" : "fd6784a57e230ad11754ff49284406a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612071236572,
+          "stop" : 1612071261154,
+          "duration" : 24582
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_4_login_from_login_page_with_invalid_credentials",
+        "uid" : "178bfa716eb568b6",
+        "parentUid" : "fd6784a57e230ad11754ff49284406a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612071238065,
+          "stop" : 1612071248388,
+          "duration" : 10323
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_2_login_from_main_page_with_invalid_credentials",
+        "uid" : "67043b6d948fc732",
+        "parentUid" : "fd6784a57e230ad11754ff49284406a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612071238088,
+          "stop" : 1612071248767,
+          "duration" : 10679
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_AT_5_login_from_token",
+        "uid" : "220930d1997e2ebf",
+        "parentUid" : "fd6784a57e230ad11754ff49284406a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612071264505,
+          "stop" : 1612071273965,
+          "duration" : 9460
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fd6784a57e230ad11754ff49284406a6"
+    } ],
+    "uid" : "c8450eaae268bc651bc704d75e6cf05e"
+  }, {
+    "name" : "tests.Regression testing.VRT.Main_page",
+    "children" : [ {
+      "name" : "test_Regression_testing_VRT_Main_page",
+      "children" : [ {
+        "name" : "test_AT_6_vrt_main_page",
+        "uid" : "6f2413d914cd08a8",
+        "parentUid" : "eb41a14702940e52de45714f9f22da59",
+        "status" : "broken",
+        "time" : {
+          "start" : 1612071252123,
+          "stop" : 1612071389046,
+          "duration" : 136923
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eb41a14702940e52de45714f9f22da59"
+    } ],
+    "uid" : "c1deaa98016bb4eaffcdd872042b0467"
+  } ],
+  "name" : "suites"
+}

@@ -1,0 +1,91 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "login",
+    "children" : [ {
+      "name" : "test_AT_3_login_from_login_page_with_valid_credentials",
+      "uid" : "3236e8c0012f8876",
+      "parentUid" : "6b74c42bd09fef0af9d6be3f5241dc88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612071236564,
+        "stop" : 1612071264065,
+        "duration" : 27501
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_AT_1_login_from_main_page_with_valid_credentials",
+      "uid" : "af06340a9fe7d5e9",
+      "parentUid" : "6b74c42bd09fef0af9d6be3f5241dc88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612071236572,
+        "stop" : 1612071261154,
+        "duration" : 24582
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_AT_4_login_from_login_page_with_invalid_credentials",
+      "uid" : "178bfa716eb568b6",
+      "parentUid" : "6b74c42bd09fef0af9d6be3f5241dc88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612071238065,
+        "stop" : 1612071248388,
+        "duration" : 10323
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_AT_2_login_from_main_page_with_invalid_credentials",
+      "uid" : "67043b6d948fc732",
+      "parentUid" : "6b74c42bd09fef0af9d6be3f5241dc88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612071238088,
+        "stop" : 1612071248767,
+        "duration" : 10679
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_AT_5_login_from_token",
+      "uid" : "220930d1997e2ebf",
+      "parentUid" : "6b74c42bd09fef0af9d6be3f5241dc88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612071264505,
+        "stop" : 1612071273965,
+        "duration" : 9460
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6b74c42bd09fef0af9d6be3f5241dc88"
+  }, {
+    "name" : "main_page",
+    "children" : [ {
+      "name" : "test_AT_6_vrt_main_page",
+      "uid" : "6f2413d914cd08a8",
+      "parentUid" : "461ab34e081b9e371f14c82f2d5e0471",
+      "status" : "broken",
+      "time" : {
+        "start" : 1612071252123,
+        "stop" : 1612071389046,
+        "duration" : 136923
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "461ab34e081b9e371f14c82f2d5e0471"
+  } ],
+  "name" : "behaviors"
+}
