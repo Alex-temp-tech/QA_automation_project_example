@@ -1,5 +1,5 @@
 from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support import expected_conditions as ec
 from visual_regression_tracker import VisualRegressionTracker, Config, TestRun
 from configuration import Configuration
 from src import save_token
@@ -14,13 +14,15 @@ class BasePage:
 
     @allure.step
     def find_element(self, locator):
-        return WebDriverWait(self.driver, Configuration.time_out).until(EC.presence_of_element_located(locator),
-                                                                        message=f"Can't find element by locator {locator}")
+        return WebDriverWait(self.driver, Configuration.time_out). \
+            until(ec.presence_of_element_located(locator),
+                  message=f"Can't find element by locator {locator}")
 
     @allure.step
     def find_elements(self, locator):
-        return WebDriverWait(self.driver, Configuration.time_out).until(EC.presence_of_all_elements_located(locator),
-                                                                        message=f"Can't find elements by locator {locator}")
+        return WebDriverWait(self.driver, Configuration.time_out). \
+            until(ec.presence_of_all_elements_located(locator),
+                  message=f"Can't find elements by locator {locator}")
 
     @allure.step
     def go_to_site(self, url):
